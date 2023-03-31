@@ -13,6 +13,16 @@ body {
 	color: #333;
 }
 
+body {
+	background-color: white;display:block;
+  }
+  
+  @media screen and (max-width: 700px) {
+	body {
+	  background-color: blue;
+	}
+  }
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -21,6 +31,8 @@ body {
 
 
 header {
+	position:sticky;
+	top:0;
 	background-color: #034694;
 	color: #fff;
 	padding: 20px 0;
@@ -171,3 +183,4 @@ footer {
 	padding: 20px 0;
 	text-align: center;
 }
+
