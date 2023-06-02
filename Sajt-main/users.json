@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Chelsea dres",
+        "email": "2500din",
+        "password": "12345",
+        "profilePicture": "dres.png"
+    },
+      
+    {
+        "name": "Chelsea solja",
+        "email": "500din",
+        "password": "12345",
+        "profilePicture": "solja-chelsea-1.jpg"
+      
+    },
+    {
+        "name": "Chelsea sal",
+        "email": "700din",
+        "password": "12345",
+        "profilePicture": "sal.jpg"
+    }
+]
