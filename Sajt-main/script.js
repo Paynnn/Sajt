@@ -4,17 +4,26 @@ let createProfile = function(user){
     let ul = document.createElement('ul');
     let nameLi = document.createElement('li');
     let emailLi = document.createElement('li');
+    let sizeLi = document.createElement('li');
+    let opisLi = document.createElement('li');
     
+
     let nameTxt = document.createTextNode(user.name);
     let emailTxt = document.createTextNode(user.email);
+    let sizeTxt = document.createTextNode(user.size);
+    let opisTxt = document.createTextNode(user.opis);
 
     profilePic.src = user.profilePicture;
 
     nameLi.appendChild(nameTxt);
     emailLi.appendChild(emailTxt);
+    sizeLi.appendChild(sizeTxt);
+    opisLi.appendChild(opisTxt)
 
     ul.appendChild(nameLi);
     ul.appendChild(emailLi);
+    ul.appendChild(sizeLi);
+    ul.appendChild(opisLi);
     
     newDiv.appendChild(profilePic);
     newDiv.appendChild(ul);

@@ -1,22 +1,53 @@
-[
+[     
+
     {
         "name": "Chelsea dres",
-        "email": "2500din",
+        "email": "24.99e",
+        "size": ["S", "M", "L", "XL"] ,
         "password": "12345",
-        "profilePicture": "dres.png"
+        "profilePicture": "dres.jpg" ,
+        "opis": "Zvanični dres Chelsea fudbalskog kluba.",
+        "naStanju": true
     },
       
     {
         "name": "Chelsea solja",
-        "email": "500din",
+        "email": "4.99e",
+        "size": ["Boja:Bela"] ,
         "password": "12345",
-        "profilePicture": "solja-chelsea-1.jpg"
+        "profilePicture": "solja-chelsea-1.jpg" ,
+        "opis": "Bela solja sa Chelsea logom",
+        "naStanju": true
       
     },
     {
         "name": "Chelsea sal",
-        "email": "700din",
+        "email": "6.99e",
+        "size": ["Boja:Plavi"] ,
         "password": "12345",
-        "profilePicture": "sal.jpg"
+        "profilePicture": "sal.jpg" ,
+        "opis": "Plavi šal sa Chelsea logom.",
+        "naStanju": true
+    },
+    {
+        "name": "Chelsea Kacket",
+        "email": "2.99e",
+        "size": ["Boja:Plavi"] ,
+        "password": "12345",
+        "profilePicture": "01769_chelsea_kapa1.jpg" ,
+        "opis": "Plavi kacket sa Chelsea logom.",
+        "naStanju": true
+    },
+    {
+        "name": "Chelsea Komplet",
+        "email": "29.99e",
+        "size": ["Boja:Plavi"] ,
+        "password": "12345",
+        "profilePicture": "komplet.jpg" ,
+        "opis": "Plavi Chelsea komplet",
+        "naStanju": true
     }
+
+
 ]
+
